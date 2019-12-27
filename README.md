@@ -1,42 +1,20 @@
 # Fenix Project
-> Short blurb about what your product does.
+> Totally not inspired by "The Phoenix Project"
+> 1.0.0 12/2019
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+Setting up a CI/CD pipeline for an Nginx static web to further understand the tools.
 
-One to two paragraph statement about your product and what it does.
 
-![](header.png)
+## Tools and Purposes
 
-## Installation
-
-OS X & Linux:
-
-```sh
-npm install my-crazy-module --save
-```
-
-Windows:
-
-```sh
-edit autoexec.bat
-```
-
-## Usage example
-
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
-
-_For more examples and usage, please refer to the [Wiki][wiki]._
+Host Machine write code: Vue.js -> Github
+VM deploy and test in private network : Jenkins -> Vagrant + Ansible -> Docker -> Nginx -> test
+Deploy on AWS: Terraform -> AWS
 
 ## Development setup
 
 Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
 
-```sh
-make install
-npm test
-```
 
 ## Release History
 
@@ -45,9 +23,6 @@ npm test
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Neon Le
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
-
-[https://github.com/yourname/github-link](https://github.com/dbader/)
-
