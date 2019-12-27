@@ -1,6 +1,5 @@
 # Fenix Project
 > Totally not inspired by "The Phoenix Project"
-> 1.0.0 12/2019
 
 Setting up a CI/CD pipeline for an Nginx static web to further understand the tools.
 
@@ -15,11 +14,6 @@ Setting up a CI/CD pipeline for an Nginx static web to further understand the to
 
 Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
 
-
-## Release History
-
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
 
 ## Meta
 
