@@ -7,9 +7,9 @@ Setting up a CI/CD pipeline for an Nginx static web to further understand the to
 
 ## Tools and Purposes
 
-Host Machine write code: Vue.js -> Github
-VM deploy and test in private network : Jenkins -> Vagrant + Ansible -> Docker -> Nginx -> test
-Deploy on AWS: Terraform -> AWS
+*Host Machine write code: Vue.js -> Github
+*VM deploy and test in private network : Jenkins -> Vagrant + Ansible -> Docker -> Nginx -> test
+*Deploy on AWS: Terraform -> AWS
 
 ## Development setup
 
