@@ -1,0 +1,14 @@
+---
+- name: working with setuped Vms
+  hosts: main_ubuntu
+  become: yes
+  tasks:
+  - name: installing python3  
+    apt:
+      name: python3
+      update_cache: yes
+
+  - name: installing nginx  
+    apt:
+      name: nginx
+      state: present

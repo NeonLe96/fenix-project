@@ -1,0 +1,19 @@
+all:
+  hosts:
+    vagrant@127.0.0.1:
+      ansible_port: 2222
+    main_ubuntu:
+      ansible_host: 127.0.0.1
+      ansible_port: 2222
+      ansible_ssh_user: vagrant
+      ansible_ssh_pass: vagrant
+
+  children:
+    webservers:
+      hosts:
+        vagrant@127.0.0.1:
+          ansible_port: 2222
+    testservers:
+      hosts:
+        127.0.0.1:
+          ansible_port: 2222
